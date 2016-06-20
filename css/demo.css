@@ -1,0 +1,373 @@
+/** Google Fonts **/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,400italic);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(http://fonts.googleapis.com/css?family=Vollkorn);
+@import url(http://fonts.googleapis.com/css?family=Bitter);
+@import url(http://fonts.googleapis.com/css?family=Domine);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+
+/*
+* Noto Sans TC (Chinese_traditional) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 100;
+  src: url(http://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff2) format('woff2'),
+       url(http://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff) format('woff'),
+       url(http://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 300;
+  src: url(http://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.woff2) format('woff2'),
+       url(http://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.woff) format('woff'),
+       url(http://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.otf) format('opentype');
+}
+@font-face {
+   font-family: 'Noto Sans TC';
+   font-style: normal;
+   font-weight: 400;
+   src: url(http://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff2) format('woff2'),
+        url(http://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff) format('woff'),
+        url(http://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans TC';
+   font-style: normal;
+   font-weight: 500;
+   src: url(http://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.woff2) format('woff2'),
+        url(http://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.woff) format('woff'),
+        url(http://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans TC';
+   font-style: normal;
+   font-weight: 700;
+   src: url(http://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff2) format('woff2'),
+        url(http://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff) format('woff'),
+        url(http://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans TC';
+   font-style: normal;
+   font-weight: 900;
+   src: url(http://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.woff2) format('woff2'),
+        url(http://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.woff) format('woff'),
+        url(http://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.otf) format('opentype');
+ }
+
+
+/** Base **/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #333;
+  font-size: 100%;
+  line-height: 1.7;
+}
+body.windows {
+  font-family: "微軟正黑體", "Microsoft JhengHei", sans-serif;
+}
+body.osx {
+  font-family: "PingFang TC", "Heiti TC", sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.2;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1.25rem;
+}
+h6 {
+  font-size: 1.125rem;
+}
+hr {
+  border: 1px solid #eee;
+  margin: 20px 0;
+}
+th,
+td {
+  padding: 5px;
+}
+ol,
+ul,
+table {
+  margin: 0 0 1.7em 0;
+}
+p {
+  margin: 0 0 1.7em 0;
+}
+
+.no-bold {
+  font-weight: normal;
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+#header {
+  padding: 40px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+#page-title {
+  font-size: 4rem;
+  margin: 0;
+}
+#content {
+  padding: 20px;
+}
+
+/* font family */
+/* windows */
+.ms-jhenghei { font-family: "Microsoft JhengHei", sans-serif; }
+.ms-yahei { font-family: "Microsoft YaHei", sans-serif; }
+
+.ms-jhenghei--arial { font-family: Arial, "微軟正黑體", "Microsoft JhengHei", sans-serif; }
+.ms-jhenghei--verdana { font-family: Verdana, "微軟正黑體", "Microsoft JhengHei", sans-serif; }
+.ms-jhenghei--tahoma { font-family: Tahoma, "微軟正黑體", "Microsoft JhengHei", sans-serif; }
+.ms-jhenghei--trebuchet-ms { font-family: "Trebuchet MS", "微軟正黑體", "Microsoft JhengHei", sans-serif; }
+.ms-jhenghei--lucida-sans-unicode { font-family: "Lucida Sans Unicode", "微軟正黑體", "Microsoft JhengHei", sans-serif; }
+.ms-jhenghei--century-gothic { font-family: "Century Gothic", "微軟正黑體", "Microsoft JhengHei", sans-serif; }
+.ms-jhenghei--calibri { font-family: Calibri, "微軟正黑體", "Microsoft JhengHei", sans-serif; }
+.ms-jhenghei--segoe-ui { font-family: "Segoe UI", "微軟正黑體", "Microsoft JhengHei", sans-serif; }
+
+.ms-yahei--arial { font-family: Arial, "Microsoft YaHei", sans-serif; }
+.ms-yahei--verdana { font-family: Verdana, "Microsoft YaHei", sans-serif; }
+.ms-yahei--tahoma { font-family: Tahoma, "Microsoft YaHei", sans-serif; }
+.ms-yahei--trebuchet-ms { font-family: "Trebuchet MS", "Microsoft YaHei", sans-serif; }
+.ms-yahei--lucida-sans-unicode { font-family: "Lucida Sans Unicode", "Microsoft YaHei", sans-serif; }
+.ms-yahei--century-gothic { font-family: "Century Gothic", "Microsoft YaHei", sans-serif; }
+.ms-yahei--calibri { font-family: Calibri, "Microsoft YaHei", sans-serif; }
+.ms-yahei--segoe-ui { font-family: "Segoe UI", "Microsoft YaHei", sans-serif; }
+
+/* os x */
+.pingfang-tc { font-family: "PingFang TC", sans-serif; } 
+.heiti-tc { font-family: "Heiti TC", sans-serif; } 
+.lihei-pro { font-family: "LiHei Pro", sans-serif; } 
+
+.pingfang-tc--arial { font-family: Arial, "PingFang TC", sans-serif; }
+.pingfang-tc--verdana { font-family: Verdana, "PingFang TC", sans-serif; }
+.pingfang-tc--tahoma { font-family: Tahoma, "PingFang TC", sans-serif; }
+.pingfang-tc--trebuchet-ms { font-family: "Trebuchet MS", "PingFang TC", sans-serif; }
+.pingfang-tc--lucida-grande { font-family: "Lucida Grande", "PingFang TC", sans-serif; }
+.pingfang-tc--century-gothic { font-family: "Century Gothic", "PingFang TC", sans-serif; }
+.pingfang-tc--helvetica-neue { font-family: "Helvetica Neue", "PingFang TC", sans-serif; }
+.pingfang-tc--helvetica { font-family: Helvetica, "PingFang TC", sans-serif; }
+
+.heiti-tc--arial { font-family: Arial, "Heiti TC", sans-serif; }
+.heiti-tc--verdana { font-family: Verdana, "Heiti TC", sans-serif; }
+.heiti-tc--tahoma { font-family: Tahoma, "Heiti TC", sans-serif; }
+.heiti-tc--trebuchet-ms { font-family: "Trebuchet MS", "Heiti TC", sans-serif; }
+.heiti-tc--lucida-grande { font-family: "Lucida Grande", "Heiti TC", sans-serif; }
+.heiti-tc--century-gothic { font-family: "Century Gothic", "Heiti TC", sans-serif; }
+.heiti-tc--helvetica-neue { font-family: "Helvetica Neue", "Heiti TC", sans-serif; }
+.heiti-tc--helvetica { font-family: Helvetica, "Heiti TC", sans-serif; }
+
+.lihei-pro--arial { font-family: Arial, "LiHei Pro", sans-serif; }
+.lihei-pro--verdana { font-family: Verdana, "LiHei Pro", sans-serif; }
+.lihei-pro--tahoma { font-family: Tahoma, "LiHei Pro", sans-serif; }
+.lihei-pro--trebuchet-ms { font-family: "Trebuchet MS", "LiHei Pro", sans-serif; }
+.lihei-pro--lucida-grande { font-family: "Lucida Grande", "LiHei Pro", sans-serif; }
+.lihei-pro--century-gothic { font-family: "Century Gothic", "LiHei Pro", sans-serif; }
+.lihei-pro--helvetica-neue { font-family: "Helvetica Neue", "LiHei Pro", sans-serif; }
+.lihei-pro--helvetica { font-family: Helvetica, "LiHei Pro", sans-serif; }
+
+/* noto sans */
+.noto-sans-tc { font-family: "Noto Sans TC", sans-serif; }
+.noto-sans-tc--arial { font-family: Arial, "Noto Sans TC", sans-serif; }
+.noto-sans-tc--verdana { font-family: Verdana, "Noto Sans TC", sans-serif; }
+.noto-sans-tc--tahoma { font-family: Tahoma, "Noto Sans TC", sans-serif; }
+.noto-sans-tc--trebuchet-ms { font-family: "Trebuchet MS", "Noto Sans TC", sans-serif; }
+.noto-sans-tc--lucida-sans-unicode { font-family: "Lucida Sans Unicode", "Noto Sans TC", sans-serif; }
+.noto-sans-tc--lucida-grande { font-family: "Lucida Grande", "Noto Sans TC", sans-serif; }
+.noto-sans-tc--century-gothic { font-family: "Century Gothic", "Noto Sans TC", sans-serif; }
+.noto-sans-tc--helvetica-neue { font-family: "Helvetica Neue", "Noto Sans TC", sans-serif; }
+.noto-sans-tc--helvetica { font-family: Helvetica, "Noto Sans TC", sans-serif; }
+.noto-sans-tc--calibri { font-family: Calibri, "Noto Sans TC", sans-serif; }
+
+/*
+.--arial { font-family: Arial, , sans-serif; }
+.--verdana { font-family: Verdana, , sans-serif; }
+.--tahoma { font-family: Tahoma, , sans-serif; }
+.--trebuchet-ms { font-family: "Trebuchet MS", , sans-serif; }
+.--lucida-sans-unicode { font-family: "Lucida Sans Unicode", , sans-serif; }
+.--century-gothic { font-family: "Century Gothic", , sans-serif; }
+*/
+
+/* font size style */
+.f-12px, .f-12px * {
+  font-size: 12px;
+}
+.f-13px, .f-13px * {
+  font-size: 13px;
+}
+.f-14px, .f-14px * {
+  font-size: 14px;
+}
+.f-15px, .f-15px * {
+  font-size: 15px;
+}
+.f-16px, .f-16px * {
+  font-size: 16px;
+}
+.f-17px, .f-17px * {
+  font-size: 17px;
+}
+.f-18px, .f-18px * {
+  font-size: 18px;
+}
+.f-19px, .f-19px * {
+  font-size: 19px;
+}
+.f-20px, .f-20px * {
+  font-size: 20px;
+}
+.f-21px, .f-21px * {
+  font-size: 21px;
+}
+.f-22px, .f-22px * {
+  font-size: 22px;
+}
+.f-23px, .f-23px * {
+  font-size: 23px;
+}
+.f-24px, .f-24px * {
+  font-size: 24px;
+}
+.f-25px, .f-25px * {
+  font-size: 25px;
+}
+.f-26px, .f-26px * {
+  font-size: 26px;
+}
+.f-27px, .f-27px * {
+  font-size: 27px;
+}
+.f-28px, .f-28px * {
+  font-size: 28px;
+}
+.f-29px, .f-29px * {
+  font-size: 29px;
+}
+.f-30px, .f-30px * {
+  font-size: 30px;
+}
+.f-31px, .f-31px * {
+  font-size: 31px;
+}
+.f-32px, .f-32px * {
+  font-size: 32px;
+}
+.f-36px, .f-36px * {
+  font-size: 36px;
+}
+.f-48px, .f-48px * {
+  font-size: 48px;
+}
+.f-60px, .f-60px * {
+  font-size: 60px;
+}
+
+/* line height style */
+.lh-120 {
+  line-height: 1.2em;
+}
+.lh-130 {
+  line-height: 1.3em;
+}
+.lh-140 {
+  line-height: 1.4em;
+}
+.lh-150 {
+  line-height: 1.5em;
+}
+.lh-160 {
+  line-height: 1.6em;
+}
+.lh-170 {
+  line-height: 1.7em;
+}
+.lh-180 {
+  line-height: 1.8em;
+}
+.lh-190 {
+  line-height: 1.9em;
+}
+.lh-200 {
+  line-height: 2em;
+}
+
+/* =font vs */
+.font-vs {
+  line-height: 1.7;
+}
+.font-vs th {
+  font-size: 20px;
+  padding: 5px 10px;
+}
+.font-vs td {
+  padding: 5px 10px;
+  vertical-align: top;
+}
+.fs-c {
+  background: #555;
+  height: 50px;
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+}
+.fs-s {
+    background: #555;
+    color: #fff;
+    line-height: 1.2;
+    padding: 5px 10px;
+    text-align: center;
+    /* word-wrap: break-word; */
+    /* word-break: break-word; */
+    /* word-break: break-all; */
+}
+.f-size {
+  width: 50px;
+}
+.f-style {
+  width: 350px;
+}
+.font-vs h1,
+.font-vs h2,
+.font-vs h3,
+.font-vs h4,
+.font-vs h5,
+.font-vs h6 {
+  margin: 0 0 1rem 0;
+}
