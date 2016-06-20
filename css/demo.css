@@ -72,7 +72,7 @@ body {
   padding: 0;
 }
 body {
-  color: #333;
+  color: #000;
   font-size: 100%;
   line-height: 1.7;
 }
@@ -211,7 +211,7 @@ p {
 .noto-sans-tc--helvetica-neue { font-family: "Helvetica Neue", "Noto Sans TC", sans-serif; }
 .noto-sans-tc--helvetica { font-family: Helvetica, "Noto Sans TC", sans-serif; }
 .noto-sans-tc--calibri { font-family: Calibri, "Noto Sans TC", sans-serif; }
-
+.noto-sans-tc--segoe-ui { font-family: "Segoe UI", "Noto Sans TC", sans-serif; }
 /*
 .--arial { font-family: Arial, , sans-serif; }
 .--verdana { font-family: Verdana, , sans-serif; }
