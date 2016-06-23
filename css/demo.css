@@ -77,7 +77,7 @@ body {
   line-height: 1.7;
 }
 body.windows {
-  font-family: "微軟正黑體", "Microsoft JhengHei", sans-serif;
+  font-family: "Microsoft JhengHei", sans-serif;
 }
 body.osx {
   font-family: "PingFang TC", "Heiti TC", sans-serif;
@@ -149,14 +149,14 @@ p {
 .ms-jhenghei { font-family: "Microsoft JhengHei", sans-serif; }
 .ms-yahei { font-family: "Microsoft YaHei", sans-serif; }
 
-.ms-jhenghei--arial { font-family: Arial, "微軟正黑體", "Microsoft JhengHei", sans-serif; }
-.ms-jhenghei--verdana { font-family: Verdana, "微軟正黑體", "Microsoft JhengHei", sans-serif; }
-.ms-jhenghei--tahoma { font-family: Tahoma, "微軟正黑體", "Microsoft JhengHei", sans-serif; }
-.ms-jhenghei--trebuchet-ms { font-family: "Trebuchet MS", "微軟正黑體", "Microsoft JhengHei", sans-serif; }
-.ms-jhenghei--lucida-sans-unicode { font-family: "Lucida Sans Unicode", "微軟正黑體", "Microsoft JhengHei", sans-serif; }
-.ms-jhenghei--century-gothic { font-family: "Century Gothic", "微軟正黑體", "Microsoft JhengHei", sans-serif; }
-.ms-jhenghei--calibri { font-family: Calibri, "微軟正黑體", "Microsoft JhengHei", sans-serif; }
-.ms-jhenghei--segoe-ui { font-family: "Segoe UI", "微軟正黑體", "Microsoft JhengHei", sans-serif; }
+.ms-jhenghei--arial { font-family: Arial, "Microsoft JhengHei", sans-serif; }
+.ms-jhenghei--verdana { font-family: Verdana, "Microsoft JhengHei", sans-serif; }
+.ms-jhenghei--tahoma { font-family: Tahoma, "Microsoft JhengHei", sans-serif; }
+.ms-jhenghei--trebuchet-ms { font-family: "Trebuchet MS", "Microsoft JhengHei", sans-serif; }
+.ms-jhenghei--lucida-sans-unicode { font-family: "Lucida Sans Unicode", "Microsoft JhengHei", sans-serif; }
+.ms-jhenghei--century-gothic { font-family: "Century Gothic", "Microsoft JhengHei", sans-serif; }
+.ms-jhenghei--calibri { font-family: Calibri, "Microsoft JhengHei", sans-serif; }
+.ms-jhenghei--segoe-ui { font-family: "Segoe UI", "Microsoft JhengHei", sans-serif; }
 
 .ms-yahei--arial { font-family: Arial, "Microsoft YaHei", sans-serif; }
 .ms-yahei--verdana { font-family: Verdana, "Microsoft YaHei", sans-serif; }
